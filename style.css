@@ -1,0 +1,74 @@
+*, body,h1,h2, h2,p, div, header, footer, nav{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    height: 120px;
+    width: 100%;
+    background-color: lightslategray;
+}
+#topHeader{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color: lightslategray;
+}
+#topHeader .siteName{
+
+}
+#topHeader .siteName .siteIcon{
+    margin-left: 20px;
+    padding-top: 20px;
+    color: chartreuse;
+}
+#topHeader .siteName .siteSubTitle{
+    margin-left: 30px;
+    color: darkmagenta;
+}
+
+nav{
+
+}
+#topMenu{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    background-color: darkblue;
+
+}
+#topMenu ul{
+    list-style: none;
+    height: 50px;
+    width: 100%;
+}
+
+#topMenu ul li{
+
+    float: left;
+    background-color: darkblue;
+    padding-top: 12px;
+    padding-bottom: 9px;
+
+}
+#topMenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 13px 50px 10px 50px;
+
+
+
+}
+#topMenu ul li a:first-child{
+
+}
+#topMenu ul li:hover a{
+    background-color: white;
+    color: darkblue;
+}
+#topMenu ul li a:hover{
+    color: darkblue;
+}
